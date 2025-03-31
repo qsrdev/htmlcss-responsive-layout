@@ -42,6 +42,13 @@
       }
     }
   }
+
+  .clearfix {
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+  }
 }
 
 /* DEKSTOP MODE */
@@ -78,5 +85,14 @@
 
   .social-networks .label {
     display: inline;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+
+    address {
+      text-align: left;
+    }
   }
 }
